@@ -1,0 +1,15 @@
+h1 {
+    color: white;
+    background: #292727
+}
+
+.rectangle {
+    position: absolute;
+    width: 515px;
+    height: 630px;
+    left: 462px;
+    top: 158px;
+    
+    background: #6F95F9;
+    border-radius: 25px;
+}
