@@ -1,15 +1,28 @@
-h1 {
+h1,
+h2,
+h3 {
     color: white;
-    background: #292727
 }
 
-.rectangle {
+p {
+    color: white;
+}
+
+.square {
     position: absolute;
     width: 515px;
-    height: 630px;
+    height: 65%;
     left: 462px;
-    top: 158px;
-    
+    top: 20vh;
+
     background: #6F95F9;
     border-radius: 25px;
+}
+
+.body {
+    background-color: #292727;
+    text-align: center;
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
 }
