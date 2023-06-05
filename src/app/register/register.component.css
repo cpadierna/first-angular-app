@@ -2,17 +2,22 @@ h1,
 h2,
 h3 {
     color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
 }
 
-p {
-    color: white;
+h3 {
+    position: relative;
+    top: 1.5vh;
+    text-align: left;
+    left: 6.33rem;
 }
 
 .square {
     position: absolute;
     width: 515px;
     height: 65%;
-    left: 462px;
+    left: 675px;
     top: 20vh;
 
     background: #6F95F9;
@@ -25,4 +30,35 @@ p {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
+}
+
+.form {
+   background: rgba(73, 73, 73, 0.3);
+   border: 3px solid #000000;
+   box-shadow: inset 0px 4px 4px
+    rgba(0, 0, 0, 0.25);
+   border-radius: 25px;
+
+   position: relative;
+   height: 2.5rem;
+   width: 20rem;
+}
+
+#register-button {
+    position: relative;
+    top: 3vh;
+    width: 15rem;
+    height: 2.5rem;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+#register-button:hover {
+    background-color: white;
+    position: relative;
+    top: 3vh;
+    width: 15rem;
+    height: 2.5rem;
+    border: 2px solid #000000;
+    border-radius: 20px;
 }
