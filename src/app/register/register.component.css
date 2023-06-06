@@ -2,8 +2,8 @@ h1,
 h2,
 h3 {
     color: white;
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h3 {
@@ -11,6 +11,15 @@ h3 {
     top: 1.5vh;
     text-align: left;
     left: 6.33rem;
+}
+
+h4 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    top: 1vh;
+    text-align: center;
+    color: white;
 }
 
 .square {
@@ -45,20 +54,43 @@ h3 {
 }
 
 #register-button {
+    background-color: #EEE5FF;
     position: relative;
     top: 3vh;
-    width: 15rem;
-    height: 2.5rem;
+    width: 16rem;
+    height: 3rem;
     border: 2px solid #000000;
     border-radius: 20px;
+
+    color: #494949;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #register-button:hover {
-    background-color: white;
+    background-color: #D2D9EA;
     position: relative;
     top: 3vh;
-    width: 15rem;
-    height: 2.5rem;
+    width: 16rem;
+    height: 3rem;
     border: 2px solid #000000;
     border-radius: 20px;
+
+    color: #494949;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#register-button:active {
+    background-color: #F2F2F2;
+    position: relative;
+    top: 3vh;
+    width: 16rem;
+    height: 3rem;
+    border: 2px solid #000000;
+    border-radius: 20px;
+
+    color: #494949;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
