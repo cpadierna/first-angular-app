@@ -1,0 +1,32 @@
+.topnav {
+    position: relative;
+    background-color: #292727;
+    height: 4rem;
+    width: auto;
+    margin: 0 0 0 0;
+
+    color: white;
+    text-align: right;
+}
+
+.progress {
+    position: relative;
+    background-color: #292727;
+    height: 5rem;
+    width: auto;
+    margin: 0 0 0 0;
+
+    color: white;
+    text-align: left;
+}
+
+.main-content {
+    position: relative;
+    background-color: #292727;
+    height: 83vh;
+    width: auto;
+    margin: 0 0 0 0;
+
+    color: white;
+
+}
